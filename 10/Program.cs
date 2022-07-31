@@ -16,7 +16,7 @@ void make_array()
                 mas[i] = entered_mas[i];
             }
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 }
 

@@ -23,7 +23,7 @@ void make_array()
                 mas[i] = entered_mas[i];
             }
 
-            Console.ReadLine();
+           // Console.ReadLine();
 
 }
 
@@ -37,10 +37,10 @@ void third_item(char[] mas)
 void third_element()
 {
     if (third < 3)
-    Console.WriteLine("Третьего элемента нет");
+        Console.WriteLine("Третьего элемента нет");
     else
-   third_item(mas); 
+        third_item(mas); 
 }
 
 make_array();
-
+third_element();
