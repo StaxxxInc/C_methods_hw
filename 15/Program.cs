@@ -7,15 +7,24 @@ void get_day()
 {
     Console.Write("Введите день = ");
     int a = Convert.ToInt32(Console.ReadLine());
-    day = a; 
+    day = a;
 }
 
 void get_holliday(int day)
 {
-    if ((day < 5) && (day > 9))
-    Console.Write("да");
-    else 
-    Console.Write("нет");
+    if (day == 0)
+    {
+        Console.Write("такого дня недели нет");
+    }
+    if (day > 7)
+    {
+        Console.Write("такого дня недели нет");
+    }
+   
+    if (day > 5)
+        Console.Write("да");
+    else
+        Console.Write("нет");
 
 }
 
